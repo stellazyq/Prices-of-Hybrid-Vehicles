@@ -1,2 +1,3 @@
 # Prices-of-Hybrid-Vehicles
-Explanatory model for prices of Hybrid Electric Vehicles
+This project uses a multiple linear regression model to describe the relationship between the suggested retail price and the features of hybrid vehicles. Considering the trade-off between accuracy and model complexity, we come up with a final explanatory model consisting of acceleration rate, mile-per-gallon, three representative car brands, and one representative car class. For model diagnostics, we check the normality assumption and identify one outlier with the mean-shift outlier model and one high leverage point. In summary, we conclude that a set of hybrid car features will affect the suggested retail price.
+In application, future buyers can balance between the price-sensitive features (predictor variables of our model) and other price-irrelevant features when shopping for hybrid electric vehicles, so that satisfaction can be maximized under given budget limits.
